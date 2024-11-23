@@ -1,0 +1,9 @@
+services:
+  mysql:
+    build: ./docker/
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'moovitamix'
+      MYSQL_ROOT_PASSWORD: 'root'
+    ports:
+      - '3305:3306' 

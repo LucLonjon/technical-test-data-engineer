@@ -3,3 +3,9 @@ fastapi
 uvicorn
 fastapi_pagination
 pytest
+requests
+sqlalchemy
+pymysql
+python-dotenv
+cryptography
+pandas
